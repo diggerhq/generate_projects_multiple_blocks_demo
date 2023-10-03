@@ -1,8 +1,8 @@
 generate_projects:
   blocks:
-    - include: dev/*
+    - include: dev/**/*
       exclude: dev/project
       workflow: default
-    - include: prod/*
+    - include: prod/**/*
       exclude: prod/project
       workflow: default
