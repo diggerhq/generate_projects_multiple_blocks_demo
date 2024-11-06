@@ -3,6 +3,7 @@ generate_projects:
     - include: projects/dev/**/*
       exclude: projects/dev/project
       workflow: default
+      workflow_file: workflow_dev.yml
     - include: projects/prod/**/*
       exclude: projects/prod/project
       workflow: default
